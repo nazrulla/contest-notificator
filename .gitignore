@@ -1,8 +1,14 @@
-#ignoring java compiled files
-*.javac
-#ignoring certain directory
-build/
-#keeping special file
-!lib.javac
-#ignoring all the javac files in certain directory
-folder/**/*.javac
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
